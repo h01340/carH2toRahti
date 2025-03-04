@@ -18,12 +18,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 @SpringBootApplication
-public class CarW6Application {
+public class CarH2ToRahtiApplication {
 
-	private static final Logger log = LoggerFactory.getLogger(CarW6Application.class);
+	private static final Logger log = LoggerFactory.getLogger(CarH2ToRahtiApplication.class);
 
 	public static void main(String[] args) {
-		SpringApplication.run(CarW6Application.class, args);
+		SpringApplication.run(CarH2ToRahtiApplication.class, args);
 	}
 
 	@Bean

@@ -20,16 +20,16 @@
 		mp
 	</groupId>
 	<artifactId>
-		car-w6
+		carH2ToRahti
 	</artifactId>
 	<version>
 		0.0.1-SNAPSHOT
 	</version>
 	<name>
-		car-w6
+		carH2ToRahti
 	</name>
 	<description>
-		Demo project for Spring Boot
+		Deploy this to Rahti, using just H2
 	</description>
 	<url />
 	<licenses>

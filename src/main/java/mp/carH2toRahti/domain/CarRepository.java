@@ -1,4 +1,4 @@
-package mp.car_w6.domain;
+package mp.carH2toRahti.domain;
 
 import org.springframework.data.repository.CrudRepository;
 
