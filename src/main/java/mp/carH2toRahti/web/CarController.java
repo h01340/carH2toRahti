@@ -4,6 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import mp.carH2toRahti.domain.CarRepository;
 import mp.carH2toRahti.domain.OwnerRepository;
@@ -32,6 +33,7 @@ public class CarController {
     }
 
     @GetMapping("/carlist")
+    @CrossOrigin(origins = "*")
     public String showCars(Model model) {
         log.info("Read cars from database..");
         model.addAttribute("cars", carRepository.findAll());
