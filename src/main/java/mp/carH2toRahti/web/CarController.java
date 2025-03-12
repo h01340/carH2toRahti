@@ -37,7 +37,7 @@ public class CarController {
     public String showCars(Model model) {
         log.info("Read cars from database..");
         model.addAttribute("cars", carRepository.findAll());
-        return "carlist";
+        return "carList";
     }
 
 }
